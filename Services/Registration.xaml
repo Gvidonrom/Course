@@ -1,0 +1,24 @@
+﻿<Window x:Class="Course.Services.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course.Services"
+        mc:Ignorable="d"
+        Title="registration" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+        </StackPanel>
+        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Margin="330,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBoxLogin_TextChanged"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Left" Margin="330,204,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="passBox_2" HorizontalAlignment="Left" Margin="330,247,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Margin="330,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="330,332,0,0" VerticalAlignment="Top" Height="26" Width="120" Click="Button_Reg_Click"/>
+        <Label Content="Введите логин" HorizontalAlignment="Left" Margin="330,111,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Введите пароль
+               " HorizontalAlignment="Left" Margin="330,171,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Повторение пароля" HorizontalAlignment="Left" Margin="330,222,0,0" VerticalAlignment="Top" Height="25" Width="120"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="330,265,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
